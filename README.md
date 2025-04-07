@@ -19,7 +19,7 @@ It combines practicality with personality — with stylish animations and a clea
 - 📈 **Codeforces Integration** to fetch user stats dynamically.
 - 🧑‍💻 **GitHub API Integration** to showcase your profile and repositories.
 - 📚 **Book Explorer** via external API to discover dev-related or any custom  books.
-- 😂 **Meme API Fun Zone** with daily tech memes.
+- 😂 **Meme API Fun Zone** with daily fun memes.
 - 🧠 **About Page** with developer spotlight and personal touch.
 - 📌 **Algorithm of the Week** – Learn a new algo every week in an easy-to-digest format.
 - 🛠️ **Coding Tips & Tricks** – Quick dev-friendly insights to improve your skills.
@@ -38,7 +38,7 @@ It combines practicality with personality — with stylish animations and a clea
 - 🧠 **React Helmet** – Manages page titles and meta tags for better SEO and shareability.
 - 🎨 **Lucide React & React Icons** – Sleek, developer-friendly icons across the interface.
 - 🔁 **Framer Motion** – Adds clean and minimal animations to enhance user experience.
-- 🔔 **React Hot Toast** – For toast notifications (e.g., success/error messages) used on login page.
+- 🔔 **React Hot Toast** – For toast notifications (e.g., success/error messages).
 - 📆 **Day.js / Date-fns** – Formats dates for Daily Question timestamps and archive handling.
 - 🌐 **Axios** – Handles all API calls efficiently and with less boilerplate.
 - 💻 **React Syntax Highlighter** – Powers terminal-style UI elements and code rendering.
