@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+
+
+nav.animate-gradient-shift {
+  background-image: linear-gradient(to right, #081730, #4a3221, #0a0a0a);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.book-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-10px); /* Lifts the card */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Adds shadow */
+}
