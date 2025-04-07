@@ -45,7 +45,7 @@ It combines practicality with personality — with stylish animations and a clea
 
 ### 📦 APIs Integrated
 
-- 📈 **Codeforces API** – Fetches and displays user stats like rating, rank, and contest history.
+- 📈 **Codeforces API** – Fetches and displays user stats like rating, rank, and contest history and also compare two users .
 - 🧑‍💻 **GitHub API** – Dynamically shows GitHub profile data and pinned repositories.
 - 📚 **Book API** – Fetches a variety of random books including but not limited to dev reads.
 - 😂 **Meme API** – Loads fun, coding-themed or general tech memes for a lighthearted touch.
