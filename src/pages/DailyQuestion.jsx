@@ -1,10 +1,8 @@
-// src/pages/DailyQuestion.jsx
 import React, { useState } from "react";
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 import dayjs from "dayjs";
 
-// Optional plugins for formatting (e.g. "Monday")
 import weekday from "dayjs/plugin/weekday";
 import advancedFormat from "dayjs/plugin/advancedFormat";
 dayjs.extend(weekday);
@@ -82,7 +80,6 @@ const DailyQuestion = () => {
           🧠 Daily Coding Challenge
         </h1>
 
-        {/* Today's Challenge */}
         <div className="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-lg mb-8">
           <div className="flex justify-between items-center mb-2">
             <h2 className="text-2xl font-semibold text-white">{todayTitle}</h2>
@@ -121,7 +118,6 @@ const DailyQuestion = () => {
           )}
         </div>
 
-        {/* Archive Section */}
         <h2 className="text-2xl font-semibold text-white mb-4">📚 Archive</h2>
         <div className="space-y-4">
           {archiveQuestions.map((item, index) => (

@@ -26,7 +26,6 @@ const RandomData = () => {
     <div className="bg-gray-900 min-h-screen flex flex-col">
       <Navbar />
 
-      {/* Main content will expand and push footer down */}
       <div className="flex-grow flex flex-col items-center justify-center p-6">
         <div className="max-w-3xl w-full bg-gray-800 bg-opacity-90 shadow-lg p-6 rounded-lg">
           <h2 className="text-3xl font-bold text-blue-400 text-center mb-4">
@@ -36,7 +35,6 @@ const RandomData = () => {
             Generate random data for testing and learning. Select a category, choose the amount of data, and retrieve your results!
           </p>
 
-          {/* Category Selection */}
           <label className="block mb-2 text-gray-300">Select Data Type:</label>
           <select
             className="p-2 w-full rounded bg-gray-700 text-gray-300 focus:ring-2 focus:ring-blue-500"
@@ -49,7 +47,6 @@ const RandomData = () => {
             <option value="products">Products</option>
           </select>
 
-          {/* Count Input */}
           {category && (
             <div className="mt-4">
               <label className="block mb-2 text-gray-300">Number of Entries:</label>
@@ -64,7 +61,6 @@ const RandomData = () => {
             </div>
           )}
 
-          {/* Fetch Data Button */}
           {category && (
             <button
               className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 w-full transition"
@@ -74,7 +70,6 @@ const RandomData = () => {
             </button>
           )}
 
-          {/* Display Data */}
           {data && (
             <div className="mt-6 bg-gray-700 p-4 rounded-lg shadow-lg">
               <h3 className="text-lg font-semibold text-blue-400">Generated Data:</h3>
@@ -82,7 +77,6 @@ const RandomData = () => {
                 {JSON.stringify(data, null, 2)}
               </pre>
               
-              {/* Buttons for Download & Copy */}
               <div className="flex justify-between mt-4">
                 <button 
                   className="flex items-center bg-green-500 px-4 py-2 rounded-lg hover:bg-green-600 transition"

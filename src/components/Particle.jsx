@@ -1,4 +1,4 @@
-// src/components/Particle.jsx
+
 import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -13,7 +13,7 @@ const Particle = () => {
       className="fixed top-0 left-0 w-full h-full -z-10"
       init={particlesInit}
       options={{
-        background: { color: "#0f0f0f" }, // Matches site bg
+        background: { color: "#0f0f0f" }, 
         fpsLimit: 60,
         interactivity: {
           events: {
@@ -23,7 +23,7 @@ const Particle = () => {
           modes: { repulse: { distance: 80, duration: 0.4 } },
         },
         particles: {
-          color: { value: "#00ffff" }, // Bright Cyan
+          color: { value: "#00ffff" },
           links: {
             color: "#00ffff",
             distance: 120,

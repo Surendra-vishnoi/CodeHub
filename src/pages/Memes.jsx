@@ -22,7 +22,7 @@ const Memes = () => {
   };
 
   useEffect(() => {
-    fetchMemes(); // Load memes on mount
+    fetchMemes();
   }, []);
 
   return (

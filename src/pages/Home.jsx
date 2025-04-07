@@ -10,7 +10,6 @@ const Home = () => {
     <div className="bg-gray-900 text-white min-h-screen">
       <Navbar />
 
-      {/* Carousel Section - Centered */}
       <div className="flex justify-center items-center bg-black py-6">
         <Carousel />
       </div>
@@ -22,7 +21,6 @@ const Home = () => {
       <main className="flex flex-col items-center justify-center px-4">
         <div className="max-w-6xl w-full">
 
-          {/* Introduction */}
           <section className="mb-12 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-purple-400 drop-shadow">
               Your Coding Journey Starts Here 🚀
@@ -32,7 +30,6 @@ const Home = () => {
             </p>
           </section>
 
-          {/* API Overview */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6 text-cyan-300 text-center">Explore Our APIs</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -51,7 +48,6 @@ const Home = () => {
             </div>
           </section>
 
-          {/* Coding Highlights */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6 text-cyan-300 text-center">Coding Insights & Highlights</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -68,7 +64,6 @@ const Home = () => {
             </div>
           </section>
 
-          {/* Today's Coding Question */}
           <section className="text-center mt-12">
             <Link
               to="/dailyquestion"

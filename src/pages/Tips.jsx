@@ -45,7 +45,6 @@ const Tips = () => {
           </p>
         </div>
 
-        {/* Tips Grid */}
         <div className="grid md:grid-cols-2 gap-6 mb-10">
           {tips.map((tip, index) => (
             <div
@@ -58,7 +57,6 @@ const Tips = () => {
           ))}
         </div>
 
-        {/* Code Snippet Tip */}
         <div className="bg-gray-800 p-6 rounded-xl mb-10 border border-gray-700">
           <h2 className="text-2xl font-semibold text-purple-400 mb-2">🧠 Handy Code Snippet</h2>
           <pre className="bg-black text-green-300 p-4 rounded-lg overflow-auto text-sm">
@@ -69,7 +67,6 @@ console.log(a, b); // 10 5`}
           </pre>
         </div>
 
-        {/* Extensions */}
         <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
           <h2 className="text-2xl font-semibold text-yellow-300 mb-4">🧩 Must-Have VS Code Extensions</h2>
           <ul className="list-disc pl-5 text-gray-300 space-y-2">

@@ -23,6 +23,6 @@ nav.animate-gradient-shift {
 }
 
 .book-card:hover {
-  transform: translateY(-10px); /* Lifts the card */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Adds shadow */
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }

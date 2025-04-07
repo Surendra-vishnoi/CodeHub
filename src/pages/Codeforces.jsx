@@ -7,19 +7,17 @@ const Codeforces = () => {
     <div className="flex flex-col min-h-screen bg-[#1e1e2e] text-white">
       <Navbar />
 
-      {/* Main Content */}
       <main className="flex-grow flex flex-col items-center justify-center p-6">
         <h1 className="text-4xl font-bold text-[#00c2ff] mb-4">
           Codeforces Stats & Comparison
         </h1>
 
-        {/* Introduction Section */}
+       
         <p className="text-lg text-gray-300 max-w-2xl text-center mb-6">
           Dive into your Codeforces journey—track ratings, performance, and improvements.  
           Compare with others and see where you stand in the coding arena!
         </p>
 
-        {/* Content Box with Vibrant Styling */}
         <div className="bg-[#2a2a3a] p-6 rounded-lg shadow-lg w-full max-w-2xl border border-[#00c2ff]">
           <CodeforcesProfile />
         </div>

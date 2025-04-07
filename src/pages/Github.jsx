@@ -38,7 +38,6 @@ const GithubProfile = () => {
             Fetch Profile
           </button>
 
-          {/* User Info Section */}
           {userInfo && (
             <div className="mt-4 text-center">
               <img src={userInfo.avatar_url} alt="Avatar" className="w-24 h-24 rounded-full mx-auto shadow-lg" />
@@ -49,7 +48,6 @@ const GithubProfile = () => {
             </div>
           )}
 
-          {/* Repository List */}
           {repos.length > 0 && (
             <div className="mt-4">
               <h3 className="text-lg font-semibold text-blue-400">Recent Repositories:</h3>
